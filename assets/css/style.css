@@ -1,0 +1,260 @@
+body {
+    /* font: 15px/1.5 'Roboto', Ariel, Helvetica, sans-serif; */
+    font: 15px/1.5 Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-color: #afc7d6;
+}
+
+
+/* Global */
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -109px;
+}
+
+.push {
+    height: 109px;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+    /* Footer height */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+.button_1 {
+    height: 38;
+    background: #729eb4;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+
+/* Header */
+
+header {
+    background: #1c2e3f;
+    color: white;
+    padding-top: 10px;
+    min-height: 60px;
+    border-bottom: #ffff00 5px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+header li {
+    display: inline;
+    padding: 0 10px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+    padding: 2px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+    color: #ffff00;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ffff00;
+    font-weight: bold;
+}
+
+
+/* showcase */
+
+#showcase {
+    min-height: 400px;
+    background-image: url(../img/portbghalf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+#showcase h1 {
+    margin-top: 30px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+
+/* newletter */
+
+#newsletter {
+    background: #1c2e3f;
+    color: white;
+    border-top: #ffff00 5px solid;
+    border-bottom: #ffff00 5px solid;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 30px;
+    width: 250px;
+    border: none;
+    margin-top: 1px;
+}
+
+.button_1 {
+    height: 38px;
+    background: #729eb4;
+    color: white;
+    border: none;
+    padding: 1px 7px 2px;
+    margin-left: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.wrap {
+    overflow: hidden;
+}
+
+
+/* Boxes */
+
+#boxes {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+}
+
+
+/* form */
+
+.cont {
+    width: 83%;
+    margin: 0% auto 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont h2 {
+    color: white;
+}
+
+form {
+    background: #fff;
+    border: #ffff00 6px solid;
+    margin-top: 27px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+#submit_button {
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    border: 1px solid #dddddd;
+    width: 564px;
+    margin-top: 7px;
+    padding: 9px;
+    font-size: 14px;
+    color: #9999A5;
+}
+
+ ::placeholder {
+    color: #d4d602;
+    opacity: .5;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    border: 0px;
+    outline: none;
+    width: auto;
+    margin-top: 15px;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    transition: all 0.2s linear;
+}
+
+input[type=submit]:hover {
+    background: #d4d602;
+}
+
+textarea {
+    height: 198px;
+}
+
+
+/* Footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background: #1c2e3f;
+    border-top: #ffff00 5px solid;
+    min-height: 60px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
